@@ -8,6 +8,7 @@ import com.mcode.fisco.ui.views.ProfileView;
 import com.mcode.fisco.ui.views.ServicesView;
 import com.vaadin.flow.component.applayout.AppLayout;
 import com.vaadin.flow.component.applayout.DrawerToggle;
+import com.vaadin.flow.component.dependency.CssImport;
 import com.vaadin.flow.component.html.H2;
 import com.vaadin.flow.component.html.Span;
 import com.vaadin.flow.component.icon.VaadinIcon;
@@ -18,6 +19,7 @@ import com.vaadin.flow.component.tabs.Tab;
 import com.vaadin.flow.router.HighlightConditions;
 import com.vaadin.flow.router.RouterLink;
 
+@CssImport("./styles/shared-styles.css")
 public class MainLayout extends AppLayout {
 
     public MainLayout() {

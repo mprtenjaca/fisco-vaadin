@@ -1,0 +1,11 @@
+body{
+    background-color: #ebecf1;
+}
+
+.content-box{
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    /*background-color: #F3F4F7;*/
+    background-color: #FFFFFF;
+}
